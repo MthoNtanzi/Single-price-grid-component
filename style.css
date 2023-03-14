@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+    color: #fff;  
+    padding: 1rem;
+    
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    margin: auto;
+}
+section{
+    padding: 1.5rem;
+}
+#join{
+    background-color: #fff;
+    border-radius: 0.5rem 0.5rem 0 0;
+    line-height: 2rem;
+}
+#signup{
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+#access{
+    text-align: left;
+    /* word-spacing: 0.2rem; */
+    /* font-size: 1.3rem; */
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1.2rem;
+}
+
+#aboutus{
+    background-color: hsla(179, 62%, 43%, 0.9);
+    color: hsl(204, 43%, 93%);
+    
+}
+#green-text{
+    color:  hsl(179, 62%, 43%);
+}
+#bright-text{
+    color:hsl(71, 73%, 54%);
+}
+.gray-text{
+    color: hsl(218, 22%, 67%);
+}
+#list{
+    list-style-type: none;
+
+}
+#signBtn{
+    width: 100%;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    box-shadow:  1px 1px 0 hsla(0, 0%, 50%, 0.349);
+}
+#price{
+    font-size: 2rem;
+}
+#perMonth{
+    color: hsl(204, 43%, 93%);
+}
+
+
+/* Media Queries */
+@media (max-width:500px){
+    section{
+        width: 350px;
+    }
+    #aboutus{
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}
+
+@media (min-width:501px) {
+    
+    main{
+        max-width: 700px;
+    }
+    
+    #aboutus{
+        flex-grow: 1;
+        border-radius: 0 0 0.5rem 0;
+    }
+    #signup{
+        flex-grow: 1;
+        border-radius: 0 0 0 0.5rem;
+    }
+}
