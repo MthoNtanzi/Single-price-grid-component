@@ -22,6 +22,8 @@ main{
 section{
     padding: 1.5rem;
 }
+
+
 #join{
     background-color: #fff;
     border-radius: 0.5rem 0.5rem 0 0;
@@ -57,9 +59,12 @@ h3{
 }
 #green-text{
     color:  hsl(179, 62%, 43%);
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
 }
 #bright-text{
     color:hsl(71, 73%, 54%);
+    margin-bottom: 1rem;
 }
 .gray-text{
     color: hsl(218, 22%, 67%);
